@@ -5,6 +5,6 @@ pub mod state;
 
 fn main() {
     let mut path = PathBuf::new();
-    path.push("example-problems");
+    path.push("problems");
     directory_parser(&mut path);
 }
