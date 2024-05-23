@@ -28,7 +28,7 @@ fn main() -> State{
     binaryheap.pop()
     }
 ````
-
+> **The verification script verifies the problems in the example directory**
 ## TODO
 * [ ] make this project to take cli arguements like single file or a directory.
 * [ ] try to make some ui if have more time.
