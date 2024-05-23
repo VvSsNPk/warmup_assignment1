@@ -21,7 +21,7 @@ problem files of the type that as described in the systems project.
 all the problem files into the problems directory and run the project you will get the solution
 files in the solutions directory.
 
-## Project Structure
+## Sample sudo code
 ````Rust
 /// the greedy algorithm is written using a binary heap
 fn main() -> State{
