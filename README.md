@@ -7,8 +7,6 @@ a basic greedy algorithm in rust.
 > This project only works when you give input files of format that are in the systems project.
 > so if you run the code please make sure that you run the problems files of that format.
 > You can change the element to *tip* or *warning* by renaming the style attribute below.
->
-{style="note"}
 
 ## Before you begin
 This project only runs using rust compiler. to run the project you need cargo 
@@ -23,7 +21,18 @@ problem files of the type that as described in the systems project.
 all the problem files into the problems directory and run the project you will get the solution
 files in the solutions directory.
 
+## Sample sudo code
+````Rust
+/// the greedy algorithm is written using a binary heap
+fn main() -> State{
+    binaryheap.pop()
+    }
+````
+> **The verification script verifies the problems in the example-problems directory**
 ## TODO
 * [ ] make this project to take cli arguements like single file or a directory.
-* [ ] try to make some ui if have more time.
+* [ ] try to make some ui if you have more time.
 * [ ] try to link some rust code here from generating the rust documentation.
+
+## Solution Summary
+[here](Solution.md)
