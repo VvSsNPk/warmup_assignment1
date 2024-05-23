@@ -28,8 +28,8 @@ fn main() -> State{
     binaryheap.pop()
     }
 ````
-> **The verification script verifies the problems in the example directory**
+> **The verification script verifies the problems in the example-problems directory**
 ## TODO
 * [ ] make this project to take cli arguements like single file or a directory.
-* [ ] try to make some ui if have more time.
+* [ ] try to make some ui if you have more time.
 * [ ] try to link some rust code here from generating the rust documentation.
