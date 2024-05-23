@@ -33,3 +33,6 @@ fn main() -> State{
 * [ ] make this project to take cli arguements like single file or a directory.
 * [ ] try to make some ui if you have more time.
 * [ ] try to link some rust code here from generating the rust documentation.
+
+## Solution Summary
+[here](Solution.md)
