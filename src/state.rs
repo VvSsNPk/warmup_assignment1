@@ -125,7 +125,7 @@ impl State {
     pub fn get_neighbours(&self, mut s: String) -> Vec<(String, State)> {
         let mut result = Vec::new();
         let mut sol = Vec::new();
-        for i in "SWEN".chars() {
+        for i in "WESN".chars() {
             let mut clone = self.clone();
             clone.move_cleaner(i);
             if !result.contains(&clone) && &clone != self {
