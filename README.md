@@ -21,6 +21,15 @@ problem files of the type that as described in the systems project.
 all the problem files into the problems directory and run the project you will get the solution
 files in the solutions directory.
 
+you need to have cargo and  rust installed in order to run the project.
+````cmd 
+cargo build --release
+````
+after building the project in release mode just run it using
+````cmd
+cargo run --release
+````
+
 ## Sample sudo code
 ````Rust
 /// the greedy algorithm is written using a binary heap
