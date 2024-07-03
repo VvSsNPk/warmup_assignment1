@@ -29,7 +29,7 @@ of the problems below
 Here also there is a variation:
 + Some problem files have 2 portals as shown in the above diagram and if the cleaner moves into a portal it will teleport in another portal location
 + Another type of variant is the problem files where start is not given, and we need to assume that the cleaner can start in any position.
-## Approaches Takes
+## Approaches Taken
 Now here I will be going over my approaches taken for the problems.
 
 ### Check Plan:
