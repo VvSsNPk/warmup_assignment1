@@ -37,8 +37,13 @@ for check plan problems it simple, I created a representation of the whole map a
 if the whole map is cleaned then I say the plan is good plan, if not I will just list out the uncleaned spots and say bad plan
 
 ### Find Plan:
-This is a little bit challenging as we need to find a suitable plan for a given problem file,
+This is a little bit challenging as we need to find a suitable plan for a given problem file, which i solved using a simple
+greedy algorithm. It worked for the d and e variants of the files but it will not work for the f variant,
 
++ Now to make it work for the f variant I took a different map representation where essentially I have multiple cleaners in my map and they move simultaniously in same direction.
++ If the cleaners meet then they merge, In this way the greedy algorithm should solve the problem.
 
 
 ## Conclusion
+Here Essentially my main strategy is greedy search to find plan, by changing the state representation i essentially tried to 
+solve different problems but the approach remains same.
